@@ -1,2 +1,2 @@
 Import-Module servermanager
-Install-WindowsFeature -name Web-Server  -IncludeManagementTools
+Install-WindowsFeature -name Web-Server  -IncludeManagementTools -IncludeAllSubFeature
